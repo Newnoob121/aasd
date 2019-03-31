@@ -1,0 +1,28 @@
+package asda;
+
+public class nn {
+	
+	
+
+	public class junit {
+		public boolean ALL_POSITIVE(int[] array) {
+			boolean result;
+			int i,len,tmp;
+			len = array.length;
+			i=0;
+			result=true;
+			while (i<len&&result) {
+			tmp=array[i];
+			if (tmp<=0)
+			result=false;
+			i++;
+			}
+			return result;}
+
+
+		
+
+	}
+
+
+}
